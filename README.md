@@ -4,7 +4,7 @@
 
 
 
-![Banner](https://github.com/FUenal/Azure-VM-Prep/blob/main/1.gif)
+![Banner](https://github.com/FUenal/Azure-VM-Prep/blob/main/assets/1.gif)
 
 ### To initiate the commencement of my Azure Honeynet project, the initial step involves configuring the virtual machines (VMs) that will be utilized. These virtual machines, akin to computers in the cloud, will serve as the cornerstone of our honeynet. The following are the procedures we will follow in Microsoft Azure:
 
@@ -18,14 +18,14 @@
 
 - Once you're in the Azure portal, navigate to the 'Virtual machines' section. 
   
-  ![azure portal](https://github.com/FUenal/Azure-VM-Prep/blob/main/2.png)
+  ![azure portal](https://github.com/FUenal/Azure-VM-Prep/blob/main/assets/2.png)
 
   
   
 - Click on 'Create', then 'Virtual machine'. This is where we'll set up our new VM!
   
  
-  ![VM create](https://github.com/FUenal/Azure-VM-Prep/blob/main/3.png)
+  ![VM create](https://github.com/FUenal/Azure-VM-Prep/blob/main/assets/3.png)
   
   </details>
   
@@ -43,11 +43,11 @@
 
   - **Image:** Select ```Windows 10 Pro, version 21H2 - x64 Gen2```
   
-  ![VM create](https://github.com/FUenal/Azure-VM-Prep/blob/main/4.png)
+  ![VM create](https://github.com/FUenal/Azure-VM-Prep/blob/main/assets/4.png)
   
   - **Networking**: When creating the virtual network, we will be leaving it to the default settings. For the purpose of this lab, I called mine ```Lab-VNet```.
   
-  ![netowkr](https://github.com/FUenal/Azure-VM-Prep/blob/main/5.png)
+  ![netowkr](https://github.com/FUenal/Azure-VM-Prep/blob/main/assets/5.png)
 
 
   </details>
@@ -73,7 +73,7 @@
 
   - **Action:** We'll set this to ```Allow```, which means that traffic matching this rule will be allowed to reach our VM. 
   
- ![NSG](https://github.com/FUenal/Azure-VM-Prep/blob/main/6.png)
+ ![NSG](https://github.com/FUenal/Azure-VM-Prep/blob/main/assets/6.png)
 
   
   - **Review & Create:** After i've input and configured all the details we need for this inbound rule, click 'Add' to create the rule. e

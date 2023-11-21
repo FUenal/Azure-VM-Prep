@@ -6,7 +6,7 @@
 
 ![Banner](https://github.com/FUenal/Azure-VM-Prep/blob/main/1.gif)
 
-### To kick off my Azure Honeynet project, we must first set up the virtual machines (VMs) we'll use. Virtual machines are like computers in the cloud, and they'll form the foundation of our honeynet. Here are the steps we'll take in Microsoft Azure:
+### To initiate the commencement of my Azure Honeynet project, the initial step involves configuring the virtual machines (VMs) that will be utilized. These virtual machines, akin to computers in the cloud, will serve as the cornerstone of our honeynet. The following are the procedures we will follow in Microsoft Azure:
 
 1. **Sign in to the Azure portal:** The first step is to log into your Azure account. If you don't have an account yet, **[you'll need to create one!](https://portal.azure.com)**
 
@@ -90,7 +90,7 @@
 
 # Conclusion
 
-### By creating our VMs and open inbound security rules, we're essentially leaving the front door of our VM wide open. This is generally not something you'd do in a real production environment, as it would make your system extremely vulnerable to attacks. However, in the context of our honeynet, it's exactly what we want to do!
+### Through the establishment of our VMs and the implementation of open inbound security rules, we are essentially allowing unrestricted access through the front door of our VM. Typically, such a practice is not advisable in a real production environment, as it exposes the system to significant vulnerability against attacks. Nevertheless, within the context of our honeynet, this is precisely the desired approach!
 
-### This allows us to attract potential attackers and observe their actions in a controlled environment.
+### This enables us to draw in potential attackers and monitor their behavior within a regulated setting.
  

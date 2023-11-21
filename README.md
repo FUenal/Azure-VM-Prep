@@ -4,7 +4,7 @@
 
 
 
-![Banner](https://github.com/AmiliaSalva/Azure-VM-Prep/assets/132176058/5ea56352-1c7f-4f4a-a243-272f6fbd9ee5)
+![Banner](https://github.com/FUenal/Azure-VM-Prep/blob/main/1.gif)
 
 ### To kick off my Azure Honeynet project, we must first set up the virtual machines (VMs) we'll use. Virtual machines are like computers in the cloud, and they'll form the foundation of our honeynet. Here are the steps we'll take in Microsoft Azure:
 
@@ -18,14 +18,14 @@
 
 - Once you're in the Azure portal, navigate to the 'Virtual machines' section. 
   
-  ![azure portal](https://github.com/AmiliaSalva/Azure-VM-Prep/assets/132176058/89174131-d43a-444b-b3f9-e4b7972d0041)
+  ![azure portal](https://github.com/FUenal/Azure-VM-Prep/blob/main/2.png)
 
   
   
 - Click on 'Create', then 'Virtual machine'. This is where we'll set up our new VM!
   
  
-  ![VM create](https://github.com/AmiliaSalva/Azure-VM-Prep/assets/132176058/f8cc721b-2439-4390-9552-06a51b996918)
+  ![VM create](https://github.com/FUenal/Azure-VM-Prep/blob/main/3.png)
   
   </details>
   
@@ -43,11 +43,11 @@
 
   - **Image:** Select ```Windows 10 Pro, version 21H2 - x64 Gen2```
   
-  ![VM create](https://github.com/AmiliaSalva/Azure-VM-Prep/assets/132176058/10525f40-6634-4cef-b519-0487d492c878)
+  ![VM create](https://github.com/FUenal/Azure-VM-Prep/blob/main/4.png)
   
   - **Networking**: When creating the virtual network, we will be leaving it to the default settings. For the purpose of this lab, I called mine ```Lab-VNet```.
   
-  ![netowkr](https://github.com/AmiliaSalva/Azure-VM-Prep/assets/132176058/8fe63ac8-42a9-4bea-bab0-2575013c185c)
+  ![netowkr](https://github.com/FUenal/Azure-VM-Prep/blob/main/5.png)
 
 
   </details>
@@ -73,7 +73,7 @@
 
   - **Action:** We'll set this to ```Allow```, which means that traffic matching this rule will be allowed to reach our VM. 
   
- ![NSG](https://github.com/AmiliaSalva/Azure-VM-Prep/assets/132176058/feb1442a-8ee7-4c78-bb98-018858b85f99)
+ ![NSG](https://github.com/FUenal/Azure-VM-Prep/blob/main/6.png)
 
   
   - **Review & Create:** After i've input and configured all the details we need for this inbound rule, click 'Add' to create the rule. e
